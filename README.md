@@ -1,7 +1,7 @@
 # Slicer – Support
 
 Need help with the Slicer playlist-cleaning app?  
-Email **support@slicerapp.com** (or your email) and we’ll reply within 24 h.
+Email **stafaa03@gmail.com** and we’ll reply within 24 h.
 
 ---
 
@@ -9,8 +9,7 @@ Email **support@slicerapp.com** (or your email) and we’ll reply within 24 h.
 
 | Question | Answer |
 |----------|--------|
-| I can’t log in | Make sure your Spotify account is active and tap “Login with Spotify” again. |
-| Purchases not unlocking Pro features | Tap **Settings → Restore Purchases**. If that fails, email us. |
+| **Why can’t I hear full songs?** | Full-length playback requires a **Spotify Premium** account. If you’re on the free tier you’ll only hear 30-second previews (or silence if the track has no preview). Upgrade to Premium or log in with a Premium account to hear the full track while swiping. |
 
 ---
 
