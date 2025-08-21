@@ -5,7 +5,7 @@ Slicer never sells your data and shows no ads. We keep data to the minimum neede
 
 ## What the app stores (on your device)
 Stored locally using secure storage:
-- **Apple Music tokens**: a short-lived developer token and your MusicKit **music user token** (lets the app access your library & play music on your device).
+- **Apple Music tokens**: a short-lived developer token and your MusicKit **music user token** (used to access your library and play music on this device).
 - **Daily cleanup counter** (to enforce the free-tier limit).
 - **Theme preference** (light/dark).
 - **In-app purchase flags (iOS)**: whether you’re Pro (lifetime or subscription) so features unlock on this device.
@@ -17,15 +17,13 @@ We do **not** upload your Apple Music library, playlists, or listening history t
 ## Data we read from Apple Music
 To show and clean your playlists we read, via Apple’s APIs:
 - Your **library playlists** and their **tracks**.
-- Your **authorization/subscription status** (to enable playback and create a cleaned playlist).
-
+- Your **authorization/subscription status** (to enable playback and allow creating a cleaned playlist).
 This data is used in-app and **not** persisted to Slicer servers.
 
-## Third-party services we use
-- **Apple MusicKit JS & Apple Music API** — authentication, library access, playback.
-- **Apple StoreKit (iOS)** — in-app purchases and restorations.
-- **Stripe + Supabase** — payments/portal on non-iOS platforms (if applicable).
-- **Vercel** — hosts a tiny endpoint that mints the Apple developer token. It returns a signed token; it does **not** store your library data.
+## Third-party services (minimal)
+- **Apple Music frameworks** — to authenticate, access your library, and play audio.
+- **App-store billing** — to process purchases and restorations on iOS.
+- **A hosted token service we operate** — returns a signed Apple developer token to the app; it does **not** store your library or listening data.
 
 > **Spotify** — *Coming soon.* Spotify integrations are paused while we work toward the required quota.
 
