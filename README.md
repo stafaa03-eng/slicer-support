@@ -6,7 +6,7 @@ Email **stafaa03@gmail.com** and we’ll reply within 24 hours.
 ## Quick start (Apple Music)
 
 - You need an **active Apple Music subscription** on the device.
-- Make sure you’re **signed into Apple Music** in the iOS Settings → Music.
+- Make sure you’re signed into Apple Music in **Settings → Music**.
 - In Slicer, choose **Apple Music → pick a playlist → swipe** right to keep / left to remove.  
   When you finish or navigate back, Slicer will offer to **create a cleaned copy**.
 
@@ -18,8 +18,8 @@ Email **stafaa03@gmail.com** and we’ll reply within 24 hours.
 ### I can’t hear music / playback doesn’t start
 - Verify your **Apple Music subscription** is active on this device.
 - Open the **Music** app, play any song, then return to Slicer and try again.
-- Check the **ringer/silent switch**, volume, and **Bluetooth** output.
-- If you see a prompt to “Enable playback”, tap it once (iOS may require a user gesture).
+- Check the ringer/silent switch, volume, and Bluetooth output.
+- If you see a prompt to “Enable playback”, tap it once (iOS may require a gesture).
 - Still stuck? Force-quit Slicer and the Music app, reopen Slicer and try again.
 
 ### How do I refresh playlists?
@@ -33,12 +33,12 @@ Free users can clean **5 tracks per day**. Go **Pro** for unlimited cleans, or t
 - You can also open **Settings → Restore Purchases** to trigger a manual restore.
 
 ### Which Apple Music data does Slicer access?
-- Your **library playlists and their tracks** (to power cleanup).
-- Your **authorization/subscription status** (to enable playback and to create cleaned playlists).  
+- Your **library playlists and their tracks** (to power cleanup).  
+- Your **authorization/subscription status** (to enable playback and create a cleaned playlist).  
 Nothing is uploaded to Slicer servers.
 
 ### Spotify?
-**Coming soon.** Spotify support is temporarily paused while we work toward the necessary quota.  
+**Coming soon.** Spotify support is paused while we work toward the required quota.  
 Slicer today focuses on a great **Apple Music** experience.
 
 ### How do I delete my data?
