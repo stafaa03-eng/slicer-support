@@ -3,24 +3,43 @@
 Need help with the Slicer playlist-cleaning app?  
 Email **stafaa03@gmail.com** and we’ll reply within 24 hours.
 
+## Quick start (Apple Music)
+
+- You need an **active Apple Music subscription** on the device.
+- Make sure you’re **signed into Apple Music** in the iOS Settings → Music.
+- In Slicer, choose **Apple Music → pick a playlist → swipe** right to keep / left to remove.  
+  When you finish or navigate back, Slicer will offer to **create a cleaned copy**.
+
+> ℹ️ Apple doesn’t let third-party apps delete tracks from your original playlist.  
+> Slicer creates a **new playlist** that includes only the tracks you kept.
+
 ## FAQ
 
-**Why can’t I hear music?**  
-Full-length playback requires a **Spotify Premium** account.  
-On free accounts, Slicer **does not play audio**—you can still swipe to keep/remove tracks.
+### I can’t hear music / playback doesn’t start
+- Verify your **Apple Music subscription** is active on this device.
+- Open the **Music** app, play any song, then return to Slicer and try again.
+- Check the **ringer/silent switch**, volume, and **Bluetooth** output.
+- If you see a prompt to “Enable playback”, tap it once (iOS may require a user gesture).
+- Still stuck? Force-quit Slicer and the Music app, reopen Slicer and try again.
 
-**I have Premium but still hear nothing.**  
-Make sure the Spotify app is installed and you’re logged into the same Premium account. Open Spotify, start any song, then return to Slicer and try again.
+### How do I refresh playlists?
+- Pull down on the list (pull-to-refresh), or tap the **refresh** icon in the header.
 
-**What Spotify data does Slicer access?**  
-Your playlists and tracks, your recently played tracks, your top tracks, and your account’s product tier—only to power the cleanup experience. Nothing is uploaded to Slicer servers.
+### I hit the free limit
+Free users can clean **5 tracks per day**. Go **Pro** for unlimited cleans, or try again tomorrow.
 
-**I hit the free limit.**  
-Free users can remove **5 tracks per day**. Upgrade to Pro for unlimited cleans, or try again tomorrow.
+### How do I restore purchases?
+- Slicer restores purchases **automatically** after sign-in.  
+- You can also open **Settings → Restore Purchases** to trigger a manual restore.
 
-**How do I restore purchases?**  
-- **iOS:** Settings → **Restore Purchases** (Apple StoreKit).  
-- **Android (when available):** Manage purchases via **Google Play**.
+### Which Apple Music data does Slicer access?
+- Your **library playlists and their tracks** (to power cleanup).
+- Your **authorization/subscription status** (to enable playback and to create cleaned playlists).  
+Nothing is uploaded to Slicer servers.
 
-**How do I delete my data?**  
-Delete the app to remove local data. To delete past support emails, contact us.
+### Spotify?
+**Coming soon.** Spotify support is temporarily paused while we work toward the necessary quota.  
+Slicer today focuses on a great **Apple Music** experience.
+
+### How do I delete my data?
+Delete the app to remove local data. To delete prior support emails, contact **stafaa03@gmail.com**.
