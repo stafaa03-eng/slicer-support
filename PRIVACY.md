@@ -1,39 +1,42 @@
 # Slicer Privacy Policy
-_Last updated: 17 Aug 2025_
+_Last updated: 21 Aug 2025_
 
-Slicer never sells your data and shows no ads. We keep data to the minimum needed to make the app work.
+Slicer never sells your data and shows no ads. We keep data to the minimum needed for the app to work.
 
-## What the app stores
-**Stored locally on your device (SecureStore):**
-- Spotify access/refresh tokens and granted scopes
-- Your Spotify product tier (“premium/free/open”) to gate playback features
-- A short-lived “pending play” URI + timestamp (used to resume after login)
-- Daily cleanup counter (free-tier limit)
-- Theme preference
-- **iOS only:** local in-app purchase flags (is Pro, plan) used to unlock features on this device
+## What the app stores (on your device)
+Stored locally using secure storage:
+- **Apple Music tokens**: a short-lived developer token and your MusicKit **music user token** (lets the app access your library & play music on your device).
+- **Daily cleanup counter** (to enforce the free-tier limit).
+- **Theme preference** (light/dark).
+- **In-app purchase flags (iOS)**: whether you’re Pro (lifetime or subscription) so features unlock on this device.
+- Small UX prefs (e.g., whether you’ve seen onboarding; hidden playlist IDs in the Apple list).
 
-**We do not run a user database for Slicer.**  
-No Spotify user ID, email, playlists, or listening history is uploaded to our servers.
+We do **not** run a user database for Slicer.  
+We do **not** upload your Apple Music library, playlists, or listening history to our servers.
 
-## Data we read from Spotify
-To show and rank songs for cleanup, the app calls Spotify’s Web API to read:
-- Your playlists and their tracks
-- Your recently played tracks
-- Your top tracks
-- Your account’s product tier (premium/free/open)
+## Data we read from Apple Music
+To show and clean your playlists we read, via Apple’s APIs:
+- Your **library playlists** and their **tracks**.
+- Your **authorization/subscription status** (to enable playback and create a cleaned playlist).
 
-These responses are used in-app and are not persisted to any server.
+This data is used in-app and **not** persisted to Slicer servers.
 
-## Third-party services
-- **Spotify SDK & Web API** for authentication and playback control.
-- **Apple StoreKit (iOS)** to process purchases.
-- **Google Play Billing (Android)** to process purchases (when available on Android builds).
+## Third-party services we use
+- **Apple MusicKit JS & Apple Music API** — authentication, library access, playback.
+- **Apple StoreKit (iOS)** — in-app purchases and restorations.
+- **Stripe + Supabase** — payments/portal on non-iOS platforms (if applicable).
+- **Vercel** — hosts a tiny endpoint that mints the Apple developer token. It returns a signed token; it does **not** store your library data.
+
+> **Spotify** — *Coming soon.* Spotify integrations are paused while we work toward the required quota.
 
 ## Analytics & tracking
-None. No analytics SDKs and no third-party advertising.
+None. We do not include analytics SDKs or third-party advertising.
 
 ## Security & retention
-All Slicer data is stored locally on your device. Deleting the app removes this data.  
-If you email support, we’ll keep your message only as long as needed to help. You can request deletion at any time.
+- App data is stored **locally** on your device. Deleting the app removes this data.  
+- Support emails you send us are kept only as long as needed to help; you can request deletion at any time.
 
-**Contact:** [stafaa03@gmail.com](mailto:stafaa03@gmail.com)
+## Your choices
+- **Delete local data:** delete the app.
+- **Restore purchases:** Settings → **Restore Purchases** (Slicer also auto-restores after sign-in).
+- **Contact us:** **stafaa03@gmail.com**
